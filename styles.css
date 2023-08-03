@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
+
+@import url(css/header.css);
+@import url(css/capa.css);
+@import url(css/portifolio.css);
+@import url(css/conteudo.css);
+@import url(css/footer.css);
+
+:root {
+    --fonte-titulo: 'Montserrat', sans-serif;
+    --fonte-texto: 'Noto Sans', sans-serif;
+
+    --cor-preto: #1C242F;
+    --cor-cinza: #8F9DA8;
+    --cor-branco: #FFFFFF;
+    --cor-gelo: #F0F3F4;
+    --cor-verde: #2CFE4A;
+    --cor-azul: #00E9DF;
+    --cor-degrade-preto: 
+    linear-gradient(146deg, rgba(28,36,47,1) 10%, rgba(28,36,47,0.1) 100%);
+}
+
+body {
+    background-color: var(--cor-gelo);
+    color: var(--cor-preto);
+    font-family: var(--fonte-texto);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+h1, h2, h3 {
+    font-family: var(--fonte-titulo);
+}
+
+.destaque {
+    color: var(--cor-verde);
+
+}

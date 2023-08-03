@@ -1,0 +1,31 @@
+
+.header {
+    height: 100px;
+    background: var(--cor-preto);
+    margin-bottom: -170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: baseline;
+    z-index: 1000 !important;
+}
+
+.header__logo {
+    padding-right: auto; 
+    vertical-align: middle; 
+}
+
+.header__logo__img {
+    height: 50px;
+    z-index: 1000 !important;
+}
+
+.header__menu {
+    padding-left: auto;
+}
+
+.header__menu__img {
+    height: 50px;
+    z-index: 1000 !important;
+}

@@ -1,0 +1,89 @@
+
+.marcas,
+.sobre-mim {
+    background-color: var(--cor-branco);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    gap: 0;
+    margin: 0;
+    
+}
+
+.sites {
+    background-color: var(--cor-branco);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    min-height: 50vh;
+    gap: 0;
+    margin: 0;
+
+}
+
+.conteudo {
+    width: 50%;
+    /* padding: 10%; */
+}
+
+.conteudo__moldura {
+    padding: 0 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.conteudo__tema {
+    color: var(--cor-cinza);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: 1.2rem;
+}
+
+.conteudo_titulo {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.1em;
+    margin-bottom: .3em;
+}
+
+.conteudo__texto {
+    line-height: 1.8em;
+}
+
+.conteudo__galeria {
+    width: 50% !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 0;
+}
+
+.conteudo__galeria__logo {
+    width:20%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.conteudo__galeria__logo:hover {
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
+
+}
+
+.conteudo__imagem {
+    width: 100%;   
+}
+

@@ -1,0 +1,26 @@
+
+.capa {
+    display: flex;
+    height: 100vh;
+    background: url(../img/case_ebooks_descomplica_site_01.jpg), linear-gradient(135deg, rgba(28,36,47,1) 0%, rgba(28,36,47,0.2) 100%);
+    background-blend-mode:darken; 
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0 20% 0 10%;
+    display: flex;  
+    align-items: center;
+    gap: 0;
+    z-index: 1;   
+}
+
+
+.capa__titulo {
+    color: var(--cor-branco);
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: .5em;
+    text-shadow: -10px 10px 20px rgba(0,0,0,.2);
+
+}
