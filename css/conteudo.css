@@ -87,3 +87,36 @@
     width: 100%;   
 }
 
+@media screen and (max-width:1024px){
+
+    .conteudo_titulo {
+        font-size: 2rem;
+        line-height: 1.1em;
+        margin-bottom: .2em;
+    }
+
+    .conteudo__moldura {
+        padding: 0 10%;
+    }
+
+}
+
+@media screen and (max-width:480px){
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .conteudo__moldura {
+        padding: 15% 10%;
+    }
+
+    .conteudo__galeria {
+        width: 100% !important;
+    }
+
+    .conteudo__texto {
+        font-size: 1.2rem;
+    }
+
+}

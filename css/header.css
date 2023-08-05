@@ -29,3 +29,19 @@
     height: 50px;
     z-index: 1000 !important;
 }
+
+@media screen and (max-width:480px) {
+
+    .header {
+        padding: 1.5em 2em;
+    }
+
+    .header__logo__img {
+        height: 40px;
+    }
+
+    .header__menu__img {
+        height: 40px;
+   
+    }
+}
