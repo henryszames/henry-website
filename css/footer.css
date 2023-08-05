@@ -88,7 +88,7 @@
 }
 
 
-@media  screen and (max-width:480px) {
+@media  screen and (max-width:767px) {
 
 
     .rodape {
@@ -102,7 +102,16 @@
         line-height: 1.1em;
         margin-bottom: .3em;
     }
-    
+
+    .botao__contato {
+        padding: 1em 1.5em;
+        color: var(--cor-preto);
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.5rem;
+
+    }
+
     .links__contato li {
         margin: 1em 0;
         text-align: left;
@@ -110,7 +119,8 @@
     }
 
     .contato__link {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        padding: 1rem;
     }
 
 }

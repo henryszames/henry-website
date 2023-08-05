@@ -101,7 +101,7 @@
 
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:767px){
 
     .conteudo {
         width: 100%;
@@ -116,7 +116,7 @@
     }
 
     .conteudo__texto {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
 }
